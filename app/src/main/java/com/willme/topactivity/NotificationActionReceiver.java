@@ -34,7 +34,7 @@ public class NotificationActionReceiver extends BroadcastReceiver {
                 if(!lollipop){
                     ActivityManager am = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
                     List<ActivityManager.RunningTaskInfo> rtis = am.getRunningTasks(1);
-                    String act = rtis.get(0).topActivity.getPackageName() + "\n"
+                    String act ="package name:"+ rtis.get(0).topActivity.getPackageName() + "\n"
                             + rtis.get(0).topActivity.getClassName();
                     TasksWindow.show(context, act);
                 }else{
