@@ -1,0 +1,4 @@
+<resources>
+    <string name="moudel_name">FileExplorer</string>
+    <string name="pref_key_last_directory"></string>
+</resources>

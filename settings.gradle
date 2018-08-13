@@ -1,1 +1,1 @@
-include ':app', ':floatball'
+include ':app', ':floatball', ':subtitleplayer', ':fileexplorer'
